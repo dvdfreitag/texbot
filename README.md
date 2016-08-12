@@ -1,4 +1,7 @@
+# texbot
+
 [![Build Status](https://travis-ci.org/dvdfreitag/texbot.svg?branch=master)](https://travis-ci.org/dvdfreitag/texbot)
+[![npm version](https://badge.fury.io/js/texbot.svg)](https://badge.fury.io/js/texbot)
 
 <img src="https://github.com/dvdfreitag/texbot/blob/master/tex.png" width="256">
 
