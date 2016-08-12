@@ -1,0 +1,32 @@
+{
+	"name": "texbot",
+	"version": "1.0.0",
+	"description": "a Slack bot that utilizes QuickLaTeX to translate LaTeX into images",
+	"keywords": [
+		"Slack",
+		"bot",
+		"LaTeX"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dvdfreitag/texbot"
+	},
+	"bugs": {
+		"url": "https://github.com/dvdfreitag/texbot/issues"
+	},
+	"bin": {
+		"texbot": "bin/texbot.js"
+	},
+	"scripts": {
+		"start": "nodejs bin/texbot.js"
+	},
+	"author": {
+		"name": "David Freitag",
+		"email": "dvdfreitag@gmail.com"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"request": "^2.74.0",
+		"slackbots": "^0.5.2"
+	}
+}
