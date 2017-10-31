@@ -22,6 +22,13 @@ Produces the following render:
 
 ![Equation](http://quicklatex.com/cache3/5e/ql_24e263eeb603f1273759abfbaaf2bb5e_l3.png)
 
+### Docker image
+To run this as an Docker image simply type:
+```bash
+docker build -t texbot/texbot:latest
+docker run -d -p 8080:8080 tex/texbot
+```
+
 ## Token
 In order for texbot to function properly, you must first add a bot to the list of custom configurations. Once you have a bot, you must replace `<token>` in `bin/texbot.js` with the API Token for that bot. 
 
